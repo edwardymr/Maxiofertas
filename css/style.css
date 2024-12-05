@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -26,7 +25,8 @@ header {
     height: auto;
     transition: all 0.3s ease;
 }
-.buscador form input{
+
+.buscador form input {
     width: 480px;
     padding: 12px;
     border: 4px solid #ccc;
@@ -51,7 +51,7 @@ header {
     justify-content: center;
 }
 
-.iconos_nav a i{
+.iconos_nav a i {
     color: rgb(223, 145, 0);
 }
 
@@ -62,7 +62,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     padding: 10px 0;
 }
 
@@ -89,28 +89,30 @@ header {
     display: inline-block;
     padding: 10px 0;
     line-height: 1.2;
-    white-space: nowrap; 
+    white-space: nowrap;
     transition: 0.3s;
 }
-.nav2 ul li a:hover{
+
+.nav2 ul li a:hover {
     color: rgb(253, 7, 7);
 
 }
 
-.slider{
+.slider {
     width: 100%;
     height: 500px;
     background-color: #a56e6e;
     overflow: hidden;
 }
-.prod_destacados{
+
+.prod_destacados {
     display: flex;
     justify-content: center;
-    text-shadow: 5px 4px 4px rgba(133,133,223,0.63);
+    text-shadow: 5px 4px 4px rgba(133, 133, 223, 0.63);
     font-weight: 1000;
 }
 
-.cards{
+.cards {
     background-color: #fffefe;
     width: 300px;
     height: 400px;
@@ -118,19 +120,23 @@ header {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    box-shadow: 16px 14px 28px -5px rgba(0,0,0,0.67);
-    -webkit-box-shadow: 16px 14px 28px -5px rgba(0,0,0,0.67);
--moz-box-shadow: 16px 14px 28px -5px rgba(0,0,0,0.67);
+    box-shadow: 16px 14px 28px -5px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: 16px 14px 28px -5px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 16px 14px 28px -5px rgba(0, 0, 0, 0.67);
     border-radius: 20px;
 }
-.cards img{
+
+.cards img {
     border-radius: 10px;
-    width: 60%;
+    width: 150px;
+    height: 150px;
 }
-.cards h2{
+
+.cards h2 {
     margin-left: 10px;
 }
-.cards a{
+
+.cards a {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
@@ -138,7 +144,8 @@ header {
     padding: 10px 40px;
     border-radius: 20px;
 }
-.container_productos{
+
+.container_productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -158,17 +165,20 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
     padding: 20px;
-    flex-wrap: wrap; /* Permite el ajuste en pantallas pequeñas */
+    flex-wrap: wrap;
+    /* Permite el ajuste en pantallas pequeñas */
     gap: 20px;
 }
-.footer_content{
+
+.footer_content {
     display: flex;
     justify-content: center;
 }
 
 footer div {
     flex: 1;
-    min-width: 200px; /* Evita que se compriman demasiado los divs */
+    min-width: 200px;
+    /* Evita que se compriman demasiado los divs */
 }
 
 .footer-logo img {
@@ -176,7 +186,9 @@ footer div {
     height: auto;
 }
 
-.footer-contact, .footer-policies, .footer-location {
+.footer-contact,
+.footer-policies,
+.footer-location {
     font-size: 14px;
     line-height: 1.6;
 }
@@ -199,17 +211,20 @@ footer div {
 /* Responsividad */
 @media screen and (max-width: 768px) {
     footer {
-        flex-direction: column; /* Apila las secciones */
+        flex-direction: column;
+        /* Apila las secciones */
         align-items: center;
         text-align: center;
     }
 
     footer div {
-        min-width: 100%; /* Ocupan todo el ancho */
+        min-width: 100%;
+        /* Ocupan todo el ancho */
     }
 
     .footer-location iframe {
-        width: 100%; /* Se adapta al contenedor */
+        width: 100%;
+        /* Se adapta al contenedor */
     }
 }
 
@@ -229,7 +244,7 @@ footer div {
     }
 
     .iconos_nav {
-        font-size: 25px; 
+        font-size: 25px;
         gap: 10px;
     }
 
