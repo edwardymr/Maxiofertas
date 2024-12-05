@@ -157,28 +157,24 @@ header {
 
 
 /* -------------------estylos footer -----------------------------*/
-footer {
+.footer_content {
     height: 100%;
     background-color: #3a65b6;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: baseline-flex;
     align-items: flex-start;
     padding: 20px;
     flex-wrap: wrap;
-    /* Permite el ajuste en pantallas pequeñas */
+
     gap: 20px;
+
 }
 
-.footer_content {
-    display: flex;
-    justify-content: center;
-}
 
 footer div {
     flex: 1;
     min-width: 200px;
-    /* Evita que se compriman demasiado los divs */
 }
 
 .footer-logo img {
@@ -212,19 +208,22 @@ footer div {
 @media screen and (max-width: 768px) {
     footer {
         flex-direction: column;
-        /* Apila las secciones */
         align-items: center;
         text-align: center;
     }
 
     footer div {
         min-width: 100%;
-        /* Ocupan todo el ancho */
     }
 
     .footer-location iframe {
-        width: 100%;
-        /* Se adapta al contenedor */
+        width: 70%;
+
+    }
+
+    .buscador form input {
+        width: 380px;
+
     }
 }
 
@@ -240,7 +239,7 @@ footer div {
     }
 
     .bar_nav1 img {
-        max-width: 120px;
+        max-width: 420px;
     }
 
     .iconos_nav {
@@ -249,7 +248,7 @@ footer div {
     }
 
     .nav2 ul {
-        gap: 20px;
+        gap: 30px;
     }
 
     .buscar {
