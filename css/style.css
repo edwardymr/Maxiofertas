@@ -105,6 +105,12 @@ header {
     overflow: hidden;
 }
 
+.slider iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 .prod_destacados {
     display: flex;
     justify-content: center;
