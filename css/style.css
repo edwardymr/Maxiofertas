@@ -106,17 +106,17 @@ header {
 .cards{
     background-color: #fffefe;
     width: 300px;
-    height: 550px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.50);
     border-radius: 20px;
 }
 .cards img{
     border-radius: 10px;
-    width: 100%;
+    width: 60%;
 }
 .cards h2{
     margin-left: 10px;
@@ -124,9 +124,9 @@ header {
 .cards a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #fc0000;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 20px;
 }
 .container_productos{
@@ -134,7 +134,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
