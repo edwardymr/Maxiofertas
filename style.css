@@ -105,6 +105,8 @@ header {
 }
 
 .cards {
+    display: flex;
+    justify-content: space-around;
     background-color: bisque;
     width: 400px;
     height: 500px;
