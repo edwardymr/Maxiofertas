@@ -107,7 +107,7 @@ header {
     display: flex;
     justify-content: center;
     text-shadow: 5px 4px 4px rgba(133,133,223,0.63);
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .cards{
