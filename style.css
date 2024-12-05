@@ -103,15 +103,17 @@ header {
     background-color: #a56e6e;
     overflow: hidden;
 }
-
-.cards .prod_destacados {
+.prod_destacados {
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
     display: flex;
     justify-content: space-around;
     background-color: bisque;
     width: 400px;
     height: 500px;
     border-radius: 20px;
-   
 }
 .cards img{
     width: 350px;
