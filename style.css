@@ -104,7 +104,7 @@ header {
     overflow: hidden;
 }
 
-.cards {
+.prod_destacados {
     display: flex;
     justify-content: space-around;
     background-color: bisque;
