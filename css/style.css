@@ -118,6 +118,68 @@ header {
 
 
 
+footer {
+    height: 100%;
+    background-color: #3a65b6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap; /* Permite el ajuste en pantallas pequeñas */
+    gap: 20px;
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    flex: 1;
+    min-width: 200px; /* Evita que se compriman demasiado los divs */
+}
+
+.footer-logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer-contact, .footer-policies, .footer-location {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-policies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-policies ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-policies ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column; /* Apila las secciones */
+        align-items: center;
+        text-align: center;
+    }
+
+    footer div {
+        min-width: 100%; /* Ocupan todo el ancho */
+    }
+
+    .footer-location iframe {
+        width: 100%; /* Se adapta al contenedor */
+    }
+}
 
 
 
