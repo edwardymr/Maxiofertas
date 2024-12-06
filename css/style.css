@@ -99,7 +99,7 @@ header {
 }
 
 
-iframe {
+.slider1 {
     width: 100%;
     height: 600px;
     border: none;
@@ -254,7 +254,7 @@ footer div {
     .buscar {
         max-width: 85%;
     }
-    iframe {
+    .slider1 {
         width: 100%;
         height: 250px;
         border: none;
