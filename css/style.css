@@ -98,16 +98,10 @@ header {
 
 }
 
-.slider {
-    width: 80%;
-    height: 1200px;
-    background-color: #a56e6e;
-    overflow: hidden;
-}
 
-.slider iframe {
+iframe {
     width: 100%;
-    height: 100%;
+    height: 600px;
     border: none;
 }
 
@@ -259,6 +253,11 @@ footer div {
 
     .buscar {
         max-width: 85%;
+    }
+    iframe {
+        width: 100%;
+        height: 250px;
+        border: none;
     }
 }
 
